@@ -17,6 +17,6 @@ def aiProcess(token, prompt):
         temperature = 0.5
     )
 
-    response = completion.choices[0].text
+    response = completion.choices[0].text.lower()
     print(response)
     return {"response_gpt" : response}

@@ -43,7 +43,7 @@ function start() {
 
 function getQuestion(theme) {
     payload = {
-        "token": "xxxxxxx",
+        "token": "xxxx",
         "msg": theme
     }
 
@@ -62,11 +62,11 @@ function getQuestion(theme) {
 
 function success(data) {
     localStorage.setItem('question', data.pergunta);
-    localStorage.setItem('a', data.A);
-    localStorage.setItem('b', data.B);
-    localStorage.setItem('c', data.C);
-    localStorage.setItem('d', data.D);
-    localStorage.setItem('e', data.E);
+    localStorage.setItem('a', data.a);
+    localStorage.setItem('b', data.b);
+    localStorage.setItem('c', data.c);
+    localStorage.setItem('d', data.d);
+    localStorage.setItem('e', data.e);
     localStorage.setItem('answer', data.resposta);
 
     document.querySelector('.a').style.background = '#636485';
