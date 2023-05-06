@@ -14,7 +14,7 @@ function pressStart() {
 
 function getQuestion(theme) {
     payload = {
-        "token": "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",
+        "token": "xxxxxxx",
         "msg": theme
     }
 
