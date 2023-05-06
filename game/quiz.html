@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>GPT Quiz</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="../css/style.css" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <header class="header-game">
+                <h1 class="theme-gui">Tema Escolhido: <div id="theme-choice"></div></h1>
+                <h2 class="points-gui">Pontuação:<div id="points">0pts</div></h2>
+            </header>
+            <section class="game-content">
+                <header>
+                    <h1 class="game-content-title">GPT Quiz</h1>
+                </header>
+                <section class="game">
+                    <p class="question" id="quest">Pergunta: Qual a cor do cavalo branco de Napoleão?</p>
+                    <p class="a" id="la">A) Roxo</p>
+                    <p class="b" id="lb">B) Vermelho</p>
+                    <p class="c" id="lc">C) Preto</p>
+                    <p class="d" id="ld">D) Verde</p>
+                    <p class="e" id="le">E) Branco</p>
+                    <div class="answer">Resposta corréta:<div class="resp" id="ans">E) Branco</div></div>
+                    <div class="retry" id="ret">Tentar novamente</div>
+                </section>
+            </section>
+        </div>
+        <footer>Fonte de dados: Chat GPT</footer>
+        <!-- <script type="text/javascript" src="../js/main.js"></script> -->
+        <script type="text/javascript" src="../js/game.js"></script>
+    </body>
+</html>

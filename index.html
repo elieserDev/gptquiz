@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>GPT Quiz</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="./css/style.css" rel="stylesheet">
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+        />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <header class="title">
+                <div class="title-img">
+                    <img src="./images/title.png" class="animate__animated animate__tada animate__infinite">
+                </div>
+            </header>
+            <section>
+                <!-- Menu de seleção para o tema das perguntas -->
+                <div class="container menu-start">
+                    <h1 class="theme-title-quiz">Selecione o tema para começar:</h1>
+                    <select name="select" id="theme">
+                        <option value="games" selected>Video Game</option>
+                        <option value="animes">Anime</option>
+                        <option value="animais">Mundo Animal</option>
+                        <option value="história">História</option>
+                        <option value="filmes">Cinema</option>
+                        <option value="seriados">Séries</option>
+                    </select>
+                    <!-- botão de start -->
+                    <button class="start" id="start">Começar</button>
+                </div>
+            </section>
+        </div>
+        <script type="text/javascript" src="./js/main.js"></script>
+    </body>
+</html>
